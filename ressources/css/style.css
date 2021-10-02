@@ -16,9 +16,18 @@
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    /*background:  rgb(223, 138, 11);*/
+   /*background:  rgb(223, 138, 11);*/
     font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+
 }
+
+.navbar .sticky{
+    padding: 15px 0;
+    background: rgb(223, 138, 11);
+    
+}
+
 .navbar .max-width{
     display: flex;
     align-items: center; 
@@ -40,7 +49,17 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
+    transition: color 0.3s ease;
 } 
+.navbar .menu li a:hover{
+color:  rgb(223, 138, 11)
+;
+
+}
+.navbar .logo a span{
+    color:  rgb(223, 138, 11);
+    
+}
 /* home section style */
 .home{
     display: flex;
@@ -51,7 +70,7 @@
     background-size: cover;
     background-attachment: fixed;
     font-family: "Ubuntu", sans-serif;
-    background-position: 0px 0px;
+    /*background-position: 0px 0px;*/
 }
 .home .max-width{
     margin: auto 0 auto 40px;
